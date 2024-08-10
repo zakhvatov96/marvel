@@ -1,0 +1,29 @@
+@import '../../style/variables.scss';
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	&__title {
+		font-weight: 700;
+		font-size: 28px;
+		span {
+			color: $main-color;
+		}
+	}
+	&__nav {
+		width: 201px;
+		height: 32px;
+		ul {
+			display: flex;
+			font-weight: 700;
+			font-size: 24px;
+			color: #000;
+			.nav__item-active {
+				color: $main-color;
+			}
+			li {
+				cursor: pointer;
+			}
+		}
+	}
+}
