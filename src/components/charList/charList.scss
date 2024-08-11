@@ -1,0 +1,32 @@
+@import '../../style/variables.scss';
+.char__content {
+	margin-top: 44px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.char-list {
+	display: grid;
+	grid-template-columns: repeat(3, 200px);
+	grid-template-rows: repeat(3, 318px);
+	gap: 30px 35px;
+	&__item {
+		background: $dark;
+		transition: 0.3s all;
+		span {
+			display: block;
+			font-weight: 700;
+			font-size: 22px;
+			color: #fff;
+			margin: 15px 15px 0 15px;
+		}
+		&:hover {
+			box-shadow: 0 5px 20px 0 #9f0013;
+			transform: translateY(-9px);
+		}
+	}
+	.button {
+		grid-column: 2;
+		margin-top: 10px;
+	}
+}
