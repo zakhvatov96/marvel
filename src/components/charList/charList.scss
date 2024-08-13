@@ -3,9 +3,11 @@
 	margin-top: 44px;
 	display: flex;
 	justify-content: space-between;
+	align-items: start;
 }
 
 .char-list {
+	margin-right: 25px;
 	display: grid;
 	grid-template-columns: repeat(3, 200px);
 	grid-template-rows: repeat(3, 318px);

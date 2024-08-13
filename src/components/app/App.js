@@ -2,6 +2,7 @@ import AppHeader from "../appHeader/AppHeader";
 import RandomChar from "../randomChar/RandomChar";
 import CharList from "../charList/CharList";
 import CharInfo from "../charInfo/CharInfo";
+import vision from '../../resources/img/vision.png'
 const App = (props) => {
 	return (
 		<div className="app">
@@ -12,7 +13,7 @@ const App = (props) => {
 					<CharList />
 					<CharInfo />
 				</div>
-				{/* <img src="" alt="" className="bg-decoration" /> */}
+				<img src={vision} alt="decoration" className="bg-decoration" />
 			</main>
 		</div>
 	);

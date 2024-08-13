@@ -1,10 +1,11 @@
 import './charInfo.scss';
+import Skeleton from '../skeleton/Skeleton';
 import thor from '../../resources/img/thor.jpeg';
 
 const CharInfo = (props) => {
 	return (
 		<div className="char-info">
-			<div className="char-info__content">
+			{/* <div className="char-info__content">
 				<img src={thor} alt="thor" className="char-info__img" />
 				<div className="char-info__btns">
 				<h2 className="char-info__header">THOR</h2>
@@ -33,7 +34,8 @@ const CharInfo = (props) => {
 					<li className="char-info__comics-item">Avengers (1963) #1</li>
 					<li className="char-info__comics-item">Avengers (1996) #1</li>
 				</ul>
-			</div>
+			</div> */}
+			<Skeleton />
 		</div>
 	);
 }
