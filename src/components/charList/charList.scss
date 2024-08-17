@@ -6,6 +6,11 @@
 	align-items: start;
 }
 
+.char-grid {
+	grid-row: 2;
+	grid-column: 2;
+}
+
 .char-list {
 	margin-right: 25px;
 	display: grid;
@@ -15,6 +20,11 @@
 	&__item {
 		background: $dark;
 		transition: 0.3s all;
+		cursor: pointer;
+		&-img {
+			width: 200px;
+            height: 200px;
+		}
 		span {
 			display: block;
 			font-weight: 700;
